@@ -56,7 +56,7 @@ void printarVetor(int size, int *v){
 
 int main()
 {
-    int size = 10; // Define o tamanho do array
+    int size = 50; // Define o tamanho do array
     int v[size]; // Declara o array de inteiros
     srand(time(NULL)); // Inicializa o gerador de números aleatórios com o tempo atual
     
