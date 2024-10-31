@@ -1,4 +1,4 @@
-/* Implementação do código de shellsort
+/* Implementação do código de insertionsort
     Coloquei coisas extras, como o tempo que levou para executar a organização e o conteúdo do array é sorteado.
     Ta ai:
     
