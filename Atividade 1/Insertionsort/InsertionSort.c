@@ -10,7 +10,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-void insertionsortA(int size, int *v){
+/*void insertionsortA(int size, int *v){
     for(int i = 0; i < size - 1; i++){
         if(v[i] > v[i+1]){
             int aux = v[i];
@@ -25,7 +25,7 @@ void insertionsortA(int size, int *v){
         }
     }
 }
-
+*/
 int insertionsortB(int size, int *v) {
     int troca = 0; // Variável auxiliar para armazenar o valor temporário durante as trocas
     for(int i = 0; i < size-1; i++) { // Laço externo que percorre o array
@@ -68,7 +68,7 @@ int main()
     
     // Captura o tempo inicial antes da ordenação
     int segundos = clock();
-    insertionsortA(size, v); // Chama a função de ordenação
+    insertionsortB(size, v); // Chama a função de ordenação
     int segundos_Passados = clock(); // Captura o tempo após a ordenação
     
     // Imprime o array após a ordenação
